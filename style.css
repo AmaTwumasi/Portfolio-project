@@ -58,7 +58,7 @@ h2 {
   background-color: #453f5e;
  padding: 130px 15px; 
 }
-.about-page p {
+.about-page p,h2 {
   line-height: 2;
   color: rgb(250, 250, 250);
 }
