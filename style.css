@@ -53,12 +53,15 @@ h2 {
   line-height: 27px;
   padding: 15px 30px;
 }
-.about-page {
+.content-container {
   text-align: center;
   background-color: #453f5e;
  padding: 130px 15px; 
 }
-.about-page p {
+.content-container p {
   line-height: 2;
   color: rgb(250, 250, 250);
+}
+.content-container h2 {
+  color:rgb(250, 250, 250)
 }
