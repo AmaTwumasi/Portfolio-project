@@ -54,15 +54,30 @@ h2 {
   padding: 15px 30px;
 }
 .about-page {
+  
   text-align: center;
   background-color: #453f5e;
  padding: 130px 15px; 
 }
-.about-page p,h2 {
+.about-page p{
   line-height: 2;
   color: rgb(250, 250, 250);
 }
 .content-container {
-   text-align: center;
- ;
+  text-align: center;
+}
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
