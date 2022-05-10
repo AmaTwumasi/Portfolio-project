@@ -30,29 +30,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <div class="container">
-      <nav class="d-flex justify-content-between">
-       <h3>
-          Twumasi Duoduaa Ama
-        </h3>
-        <ul>
-          <li class="active">
-            <a href="/index.html"> Home</a>
-          </li>
-          <li>
-            <a href="/about.html"> About</a>
-          </li>
-          <li>
-            <a href="/projects.html"> Projects</a>
-          </li>
-          <li>
-            <a href="/contact.html"> Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="content-container"></div>
-    <h3 class="text-center mt-5" >
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Twumasi Duoduaa Ama</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="about-page">
+    <h3 class="text-center">
         Here are some of the projects I have been working on, take a look!
     </h3>
     <div class="container">
@@ -63,7 +74,7 @@
            This app was built with  HTML, CSS and JavaScript by calling API's . 
            It shows the current temperature, wind speed, humidity, etc of every city in the world.
           </p>
-           <img src="image/weatherapp.png" class="img-fluid rounded border border-2 shadow p-3" alt="image"/>
+           <img src="image/weatherapp.png" class="img-fluid rounded border border-2 shadow p-3" alt="image" width="400"/>
            <a href="https://lucid-lumiere-d27676.netlify.app/" class="btn btn-branding mt-4">Launch App</a>
         </div> 
         <div class="col-sm-6">
@@ -72,7 +83,7 @@
             This is my first project built under shecodes basic using html and css.
             This links to my haircare products formulated with pure african organic shea butter.
           </p>
-          <img src="image/productlanpage.png" class="img-fluid rounded border border-2 shadow p-3" />
+          <img src="image/productlanpage.png" class="img-fluid rounded border border-2 shadow p-3" alt="image" width="400"/>
           <a href="https://fervent-morse-978bf2.netlify.app/" class="btn btn-branding mt-4">Visit page</a>
         </div>
       </div>
