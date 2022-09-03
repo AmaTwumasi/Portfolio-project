@@ -6,11 +6,30 @@
 }
 
 body {
-  background: rgb(231, 231, 231);
+  background: rgb(255, 255, 255);
   background-image: url("");
 }
+.navbar-brand {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.navbar-nav {
+  position: relative;
+ left: 600px;
+ 
+}
+ .nav-item a:hover:not(.active) {
+  background-color: rgb(81, 163, 125);
+}
+.nav-item {
+  margin-right: 5px;
+ 
+}
+.nav-link {
+  font-size: 20px;
+}
 .main {
-  margin: 100px;
+  margin: 0px 50px;
 }
 h1,
 h3,
@@ -22,7 +41,9 @@ p {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 54px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -35,16 +56,25 @@ nav {
   position: relative;
 }
 .hero {
- background-image: linear-gradient(to right, rgb(238, 219, 190) , rgb(46, 46, 46));
+   background-image: url(image/13295064_5172658.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
   text-align: center;
+  margin-top: 10px;
   padding: 100px 20px;
 font-family: var(--default-font-family);
-}
 
+}
+.frontend {
+  background: rgb(238, 203, 203);
+  color: red;
+ 
+}
 .hero h2 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
+  margin-bottom: 30px;
   color: #4021c9;
   animation-name: example;
   animation-duration: 5s;
@@ -63,6 +93,29 @@ font-family: var(--default-font-family);
   line-height: 1;
   font-size: 24px;
 }
+.hero1 {
+  background-image: url(image/pexels-nataliya-vaitkevich-5554751\ \(1\).jpg);
+  background-size: contain;
+   text-align: center;
+  padding: 200px 20px;
+font-family: var(--default-font-family);
+opacity: 0.5;
+}
+.hero1 h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #4021c9;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {color: red;}
+  to {color: rgb(191, 194, 22);}
+}
 #me {
   margin: 0 auto;
   height: 400px;
@@ -70,29 +123,53 @@ font-family: var(--default-font-family);
   border-radius: 200px;
   
 }
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #skills p {
-  margin: 0 150px;
+  margin: 0 120px;
   font-size: 24px;
+  line-height: 2;
+  color: rgb(24, 24, 148);
   opacity: 0.7;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: var(--default-font-family);
 }
 #abilities {
   text-align: center;
-  background: rgb(121, 61, 145);
-  padding: 40px;
-  margin: 40px;
+ margin-left: 30px;
   line-height: 2;
+ 
 }
 #abilities p {
   color: rgb(238, 239, 245);
 }
+#service1 {
+  background-color:#f89c4b;
+  margin-right: 10px;
+  height: 270px;
+  width: 350px;
+   border-radius: 10px;
+}
+#service2 {
+ background-color:#f89c4b; 
+ margin-right: 10px;
+ width: 400px;
+  border-radius: 10px;
+}
+#service3 {
+  background-color:#f89c4b;
+  width: 350px;
+   border-radius: 10px;
+}
+ 
 #projects {
   text-align: center;
 }
 .btn-branding {
-  background: #0d1137;
-  border-radius: 15px;
+  background: #ffffff;
+  border-radius: 100px 5px 100px 0px;
 
   font-size: 18px;
   line-height: 27px;
@@ -105,33 +182,32 @@ transition: all 5 00ms ease;
 }
 .about-page {
   text-align: center;
-  background-color: #f7d3e1;
-  
+  background-color: #fe8991;
+  line-height: 2;
   padding: 130px 15px;
 }
 .about-page
 h2,
 h3 {
-  line-height: 2;
-  color:  #0d1137;
+  
+  color:  #6466d7;
   font-size: 24px;
 }
 .general {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .general h2 {
-  color:rgb(7, 6, 49);
+  color:rgb(233, 16, 204);
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 .contact-page {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-margin: 0px 100px;
-  
-  background-image: linear-gradient(to right, rgb(190, 211, 238) , #b6b7b9);
+margin: 0px 50px;
   padding: 20px 15px;
 }
 .contact-page p {
@@ -142,6 +218,7 @@ margin: 0px 100px;
 
 .socials {
   margin-left: 150px;
+
 }
 #header {
   font-size: 30px;
@@ -154,12 +231,21 @@ margin: 0px 100px;
   font-weight: lighter !important;
 }
 footer {
-  margin: 60px 0;
+  background-color: #bb7fe9;
+  padding: 20px;
+  
+}
+.footer {
+  display: flex;
+
 }
 
 footer .contact-box {
   background: rgb(250, 249, 246);
-  padding: 30px 120px;
+   margin-top: 100px;
+    margin-left: 50px;
+  margin-bottom: 100px;
+  padding: 30px;
   border-radius: 10px;
 }
 
@@ -182,6 +268,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
+  margin-top: -30px;
   color: var(--branding-color);
   background: rgb(221, 220, 218);
   padding: 10px 14px;
@@ -190,13 +277,16 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ margin-left: 150px;
  font-size: 20px;
 }
+label {
+  font-size: 20px;
+}
 input {
+  border: none;
   border-radius: 5px; 
+  background: #cfcfcf;
 }
 #text{
   width: 300px;
@@ -206,7 +296,21 @@ footer .social-links a:hover {
   color: rgb(32, 30, 30);
   background-color: aqua;
 }
+
+
 @media (max-width: 600px) {
+  .navbar-brand {
+  margin-left: 1px;
+  font-size: 20px;
+}
+.navbar-nav {
+  position: relative;
+ left: 30px;
+ 
+}
+.nav-link {
+  font-size: 15px;
+}
   .main {
   margin: 0 auto;
 }
@@ -242,6 +346,9 @@ footer .social-links a:hover {
   margin: 0 30px;
   font-size: 12px;
   opacity: 0.7;
+}
+#skills img {
+ width: 200px;
 }
 #abilities {
   text-align: center;
