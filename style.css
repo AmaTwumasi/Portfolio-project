@@ -168,7 +168,7 @@ opacity: 0.5;
   text-align: center;
 }
 .btn-branding {
-  background: #ffffff;
+  background: #ecc6c6;
   border-radius: 100px 5px 100px 0px;
 
   font-size: 18px;
@@ -277,21 +277,31 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 .form {
- margin-left: 150px;
+ margin-left: 200px;
  font-size: 20px;
 }
 label {
   font-size: 20px;
 }
-input {
+input,textarea {
   border: none;
   border-radius: 5px; 
   background: #cfcfcf;
 }
 #text{
-  width: 300px;
+  width: 387px;
   height: 40px;
 }
+ #submit {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(196, 44, 44);
+  color: white;
+ }
+ #submit:hover {
+  color: rgb(32, 30, 30);
+  background-color: aqua;
+ }
 footer .social-links a:hover {
   color: rgb(32, 30, 30);
   background-color: aqua;
